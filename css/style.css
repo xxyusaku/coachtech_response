@@ -558,8 +558,12 @@ body {
 }
 
 .service-img_second {
+  top: 100%;
   margin-top: 60%;
-  padding-top: 10%;
+}
+
+.service-img .service-img_second {
+  height: auto;
 }
 
 .service-content_inner,
@@ -567,6 +571,7 @@ body {
   width: 90%;
   left: 5%;
   top: 80%;
+  height: auto;
   padding-left: 10%;
 }
 
@@ -585,12 +590,13 @@ body {
   margin-left: 5%;
 }
 
-.top-footer {
+/* .top-footer {
   text-align: center;
-}
+} */
 
 .footer-bar .flex .header-logo {
-  margin-left: 40%;
+  margin: 0 auto;
 }
+
 
 }
