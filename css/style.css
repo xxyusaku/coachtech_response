@@ -245,10 +245,6 @@ body {
   line-height: 70px;
 }
 
-.header-nav {
-  text-align: end;
-}
-
 .header-nav li {
   display: inline-block;
   margin-right: 35px;
