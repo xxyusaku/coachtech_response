@@ -245,6 +245,10 @@ body {
   line-height: 70px;
 }
 
+.header-nav {
+  text-align: end;
+}
+
 .header-nav li {
   display: inline-block;
   margin-right: 35px;
@@ -501,6 +505,7 @@ body {
   z-index: 100;
   top: 15px;
   right: 20px;
+  transition: 0.4s;
 }
 
 #hamburger span {
@@ -557,7 +562,8 @@ body {
 }
 
 .service-img_second {
-  margin-top: 70%;
+  margin-top: 60%;
+  padding-top: 10%;
 }
 
 .service-content_inner,
@@ -581,6 +587,10 @@ body {
   width: 90%;
   text-align: center;
   margin-left: 5%;
+}
+
+.top-footer {
+  text-align: center;
 }
 
 .footer-bar .flex .header-logo {
