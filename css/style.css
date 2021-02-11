@@ -548,31 +548,17 @@ body {
 }
 
 .service {
-  height: 1200px;
+  height: auto;
 }
 
 .service-img,
 .service-img_second {
-  width: 90%;
-  margin-left: 5%;
+  margin: 0 auto;
+  width: 100%;
 }
 
-.service-img_second {
-  top: 100%;
-  margin-top: 60%;
-}
-
-.service-img .service-img_second {
-  height: auto;
-}
-
-.service-content_inner,
-.service-content_inner-second {
-  width: 90%;
-  left: 5%;
-  top: 80%;
-  height: auto;
-  padding-left: 10%;
+.service-content_inner .service-content_inner-second {
+  position: static;
 }
 
 .recruit-company_size {
