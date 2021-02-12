@@ -553,12 +553,16 @@ body {
 
 .service-img,
 .service-img_second {
-  margin: 0 auto;
-  width: 100%;
+  width: 90%;
+  margin: 0 5%;
+  position: static;
 }
 
-.service-content_inner .service-content_inner-second {
+.service-content_inner ,
+.service-content_inner-second {
   position: static;
+  width: 90%;
+  margin: 0 5%;
 }
 
 .recruit-company_size {
